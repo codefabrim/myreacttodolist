@@ -1,4 +1,7 @@
 import React, {Component} from "react";
+//import TodoItems from "./TodoItems";
+import TodoItems from "./TodoItems";
+
 
 class TodoList extends  Component {
 
@@ -53,9 +56,14 @@ class TodoList extends  Component {
                     </form>
 
                 </div>
+
+                <TodoItems entries={this.state.items}/>
             </div>
         );
     }
+
+
+
 
 
 }
