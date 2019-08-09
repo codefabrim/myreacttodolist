@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import * as serviceWorker from './serviceWorker';
 import './index.css';
 
-import * as serviceWorker from './serviceWorker';
+import TodoList from "./TodoList";
 
 var destination = document.querySelector("#container");
 
 
 ReactDOM.render(
     <div>
-        <p> Hello</p>
+       <TodoList></TodoList>
     </div>,
     destination
 );
