@@ -4,7 +4,17 @@ import './index.css';
 
 import * as serviceWorker from './serviceWorker';
 
-//ReactDOM.render(<App />, document.getElementById('root'));
+var destination = document.querySelector("#container");
+
+
+ReactDOM.render(
+    <div>
+        <p> Hello</p>
+    </div>,
+    destination
+);
+
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
